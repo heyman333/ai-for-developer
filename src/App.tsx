@@ -4,7 +4,7 @@ import { FloatingSubscribeButton } from "./components/FloatingSubscribeButton";
 import { BottomSheet } from "./components/BottomSheet";
 import { LoadingSpinner } from "./components/LoadingSpinner";
 import { fetchMetadata } from "./services/api";
-import { ListItem } from "./types";
+import type { ListItem } from "./types";
 
 function App() {
   const [isBottomSheetOpen, setIsBottomSheetOpen] = useState(false);
