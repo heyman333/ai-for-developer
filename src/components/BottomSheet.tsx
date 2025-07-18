@@ -29,7 +29,7 @@ export function BottomSheet({ isOpen, onClose }: BottomSheetProps) {
 
     try {
       const response = await fetch(
-        "http://localhost:3000/subscription/subscribe",
+        `${import.meta.env.VITE_API_URL}/subscription/subscribe`,
         {
           method: "POST",
           headers: {
