@@ -17,7 +17,7 @@ export function ItemList({ items, onItemClick }: ItemListProps) {
 
   return (
     <div className="space-y-4">
-      {items.map((item) => (
+      {items.slice().reverse().map((item) => (
         <ListItem key={item.url} item={item} onClick={onItemClick} />
       ))}
     </div>
