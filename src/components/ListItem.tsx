@@ -28,7 +28,6 @@ export function ListItem({ item, onClick }: ListItemProps) {
               item.ogDescription ||
               "No description available"}
           </p>
-          <p className="text-xs text-gray-400 mt-1">{item.url}</p>
         </div>
       </div>
     </div>
