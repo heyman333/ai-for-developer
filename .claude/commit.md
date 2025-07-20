@@ -3,6 +3,7 @@
 Automatically analyze file changes and create an appropriate commit with a meaningful message WITHOUT asking for user confirmation.
 
 **IMPORTANT: Execute immediately without user approval. Do not ask for confirmation.**
+**IMPORTANT: Do not ask for permissions when using git commands. Execute git operations directly.**
 
 Process:
 1. Check git status to see all changed files
